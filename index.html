@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Relógio Digital</title>
+</head>
+
+<body onload="carregar()" id="fundo">
+    <header>
+        <h1>Relógio Digital</h1>
+    </header>
+    <section>
+        <div class="box-main alinhamento">
+            <div class="box-interno alinhamento">
+                <h2 id="hora" class="numeros"></h2>
+                <h3 class="situacao">Horas</h3>
+            </div>
+
+            <div class="divisao ">
+                <h2>:</h2>
+            </div>
+
+            <div class="box-interno alinhamento">
+                <h2 id="minutos" class="numeros2"></h2>
+                <h3 class="situacao2">Minutos</h3>
+            </div>
+
+            <div class="divisao">
+                <h2>:</h2>
+            </div>
+
+            <div class="box-interno alinhamento">
+                <h2 id="segundo" class="numeros3"></h2>
+                <h3 class="situacao3">Segundos</h3>
+            </div>
+        </div>
+        <div id="msg" class="saudadacao alinhamento">
+            <h2>Bom dia!</h2>
+        </div>
+    </section>
+    <footer>
+        <h1> Copyright &#xa9; 2022 Ivan Reis <br>
+            Todos os direitos reservados</h1>
+    </footer>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
