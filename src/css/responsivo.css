@@ -1,0 +1,25 @@
+@media (max-width: 32.5em) {
+
+    section {
+        height: 32.5em;
+        width: 17.5em;
+    }
+
+    .box-main {
+        flex-direction: column;
+    }
+
+    .box-interno {
+        margin: 1.25em 0 0 0;
+        min-width: 10em;
+        min-height: 7.5em;
+    }
+
+    .divisao {
+        display: none;
+    }
+
+    footer h1 {
+        top: 2.5em;
+    }
+}
